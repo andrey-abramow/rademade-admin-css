@@ -1,0 +1,21 @@
+body {
+  height: 100%;
+}
+.wrapper {
+  margin-left: 300px;
+}
+.sidenav-container {
+  background-color: red;
+  height:100%;
+  width: 300px;
+  position: fixed;
+}
+.header-container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  background-color: green;
+}
+.main-container {
+  background-color: blue;
+}
