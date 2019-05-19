@@ -1,0 +1,34 @@
+.breadcrumbs li {
+  display: inline-block;
+}
+.breadcrumbs li a {
+  text-decoration: none;
+  line-height: 26px;
+  font-family: AdobeInvisFont, OpenSans-Bold, MyriadPro-Regular;
+  font-size: 12.95434pt;
+  color: rgba(79, 79, 79, 255);
+  text-align: left;
+  padding: 10px 0px;
+  margin-right: 10px;
+}
+.breadcrumbs li:before {
+  content: '';
+  display: inline-block;
+  background: url('./arrow.png') no-repeat;
+  width: 30px;
+  height: 14px;
+}
+.breadcrumbs li:first-child::before {
+  display: none;
+}
+.breadcrumbs li:last-child {
+  color: #442a9d;
+}
+
+.breadcrumbs {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center
+}
+

@@ -5,7 +5,18 @@
   </nav>
   <div class="wrapper">
     <header class="header-container">
-        header
+      <div class="header__item header__item--left">
+        <app-breadcrumbs></app-breadcrumbs>
+      </div>
+      <div class="header__item header__item--right">
+          <app-header-profile></app-header-profile>
+      </div>
+      <div class="header__item header__item--right">
+          <app-header-notifications></app-header-notifications>
+      </div>
+      <div class="header__item header__item--right">
+        <app-autocomplete></app-autocomplete>
+      </div>
     </header>
     <main class="main-container">
       main

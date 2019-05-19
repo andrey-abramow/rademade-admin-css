@@ -1,0 +1,17 @@
+.autocomplete__wrapper {
+}
+
+.autocomplete__wrapper input {
+  border: none;
+  font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 9.71576pt;
+  // color: #ededed;
+  text-align: left;
+  border-radius: 3px;
+  text-transform: uppercase;
+  width: 265px;
+  height: 16px;
+  padding: 10px 0px 10px 20px;
+  border: 1px solid #ededed;
+  background: #fff url(./search.png) 250px 10px no-repeat;
+}

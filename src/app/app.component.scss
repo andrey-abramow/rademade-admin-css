@@ -2,20 +2,33 @@ body {
   height: 100%;
 }
 .wrapper {
-  margin-left: 300px;
+  margin-left: 323px;
 }
 .sidenav-container {
-  background-color: red;
   height:100%;
-  width: 300px;
+  width: 323px;
   position: fixed;
+  background-color: #303841;
 }
 .header-container {
-  height: 50px;
-  width: 100%;
-  display: flex;
-  background-color: green;
+  height: 40px;
+  padding: 14px 38px 14px 32px;
 }
 .main-container {
   background-color: blue;
+}
+
+.header__item {
+  // display: inline-block;
+  // border: 1px solid black;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.header__item--right {
+  float: right;
+  margin-left: 43px;
+}
+.header__item--left {
+  float: left;
 }

@@ -1,0 +1,27 @@
+.notification {
+  padding: 2px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.notification .bell {
+  width: 19px;
+  height: 34px;
+  display: inline-block;
+  position: relative;
+  background: url('./bell.png') 0px 8px no-repeat;
+}
+
+.notification .bell span {
+  top: 2px;
+  left: 14px;
+  text-align: center;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  padding: 6px 6px;
+  border-radius: 50%;
+  line-height: 50%;
+  background-color: red
+}
+
+
