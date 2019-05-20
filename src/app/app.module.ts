@@ -9,6 +9,7 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { HeaderProfileComponent } from './header-profile/header-profile.component';
 import { HeaderNotificationsComponent } from './header-notifications/header-notifications.component';
+import { CustomerInfoComponent } from './customer-info/customer-info.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeaderNotificationsComponent } from './header-notifications/header-noti
     AutocompleteComponent,
     BreadcrumbsComponent,
     HeaderProfileComponent,
-    HeaderNotificationsComponent
+    HeaderNotificationsComponent,
+    CustomerInfoComponent
   ],
   imports: [
     BrowserModule,
