@@ -1,7 +1,7 @@
-.autocomplete__wrapper {
+.autocomplete {
 }
 
-.autocomplete__wrapper input {
+.autocomplete input {
   border: none;
   font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
   font-size: 9.71576pt;
@@ -14,4 +14,26 @@
   padding: 10px 0px 10px 20px;
   border: 1px solid #ededed;
   background: #fff url(./search.png) 250px 10px no-repeat;
+}
+
+.autocomplete_items-container {
+  border-right: 1px solid #ededed;;
+  border-left: 1px solid #ededed;;
+  border-bottom: 1px solid #ededed;
+  max-height: 150px;
+  overflow: scroll;
+}
+
+.autocomplete_items-container li span {
+  display: block;
+  padding: 10px 10px;
+  font-weight: 400;
+  color: #555;
+  cursor: pointer;
+}
+.autocomplete_items-container li:not(:last-child) span {
+  border-bottom: 1px solid #ededed;;
+}
+.autocomplete_items-container li span:hover {
+  background-color: #ddd;
 }
