@@ -10,6 +10,8 @@ import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { HeaderProfileComponent } from './header-profile/header-profile.component';
 import { HeaderNotificationsComponent } from './header-notifications/header-notifications.component';
 import { CustomerInfoComponent } from './customer-info/customer-info.component';
+import { FormsModule } from '@angular/forms'
+import { ClickOutsideModule } from 'ng-click-outside';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,11 @@ import { CustomerInfoComponent } from './customer-info/customer-info.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+    FormsModule,
+
+    ClickOutsideModule
   ],
   providers: [],
   bootstrap: [AppComponent]

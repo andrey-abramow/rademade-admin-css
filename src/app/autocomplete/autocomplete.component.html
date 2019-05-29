@@ -1,9 +1,8 @@
-<div class="autocomplete">
-  <input placeholder="search"/>
-  <ul class="autocomplete_items-container">
-    <li><span>Search item1</span></li>
-    <li><span>Search item2</span></li>
-    <li><span>Search item3</span></li>
-    <li><span>Search item4</span></li>
+<div class="autocomplete" (clickOutside)="onClickedOutside($event)">
+  <input [(ngModel)]="searchString" (ngModelChange)="onChange(searchString)" placeholder="search"/>
+  <ul *ngIf="isOpen" class="autocomplete_items-container">
+    <li *ngFor="let item of items" (click)="select(item)">
+      <span>{{item.name}}</span>
+    </li>
   </ul>
 </div>
