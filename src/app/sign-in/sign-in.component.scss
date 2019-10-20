@@ -2,6 +2,9 @@
   height: 100%;
   width: 100%;
   background-color: yellow;
+  display: flex;
+  // flex-direction: column; // It works without it so why do I need it
+  // justify-content: center; //
 }
 /*
  To make it work I added;
@@ -20,12 +23,13 @@
   display: inline-block;
 }
 .app-sign-in-content {
-  position: absolute;
-  top:50%;
-  left:50%;
+  // position: absolute;
+  // top:50%;
+  // left:50%;
+  margin: auto;
   width: 570px;
   height: 266px;
   // I do not like this idea because it seems like take a lot of process work
-  transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
   background-color: red;
 }
