@@ -3,8 +3,16 @@
   width: 100%;
   background-color: yellow;
   display: flex;
-  // flex-direction: column; // It works without it so why do I need it
-  // justify-content: center; //
+  flex-direction: column; // It works without it so why do I need it
+  justify-content: center; // It works without it so why do I need it
+  position: relative;
+}
+.app-sign-in__bg-image {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /*
  To make it work I added;
@@ -16,12 +24,37 @@
   }
   I do not like this idea because it seems like take a lot of process work
 */
+
+
+// menu
 .app-sign-in-menu {
   position: fixed;
+  display: inline-flex;
   right: 10px;
   top: 10px;
-  display: inline-block;
 }
+
+.app-sign-in-menu__link-icon {
+  display: block;
+  color: red;
+  width:12px;
+  height: 12px;
+  padding-right: 10px;
+  position: relative;
+  background: url("./.icons/user-solid.svg") no-repeat
+}
+.app-sign-in-menu__link {
+  color: red;
+  display: inline-flex;
+  font-size: 12px;
+  text-decoration: none;
+  // aligning
+  vertical-align: top;
+}
+
+
+
+// content
 .app-sign-in-content {
   // position: absolute;
   // top:50%;
@@ -32,4 +65,5 @@
   // I do not like this idea because it seems like take a lot of process work
   // transform: translate(-50%, -50%);
   background-color: red;
+  z-index: 1;
 }
