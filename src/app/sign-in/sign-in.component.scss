@@ -1,0 +1,31 @@
+.app-sign-in {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+}
+/*
+ To make it work I added;
+ html {
+  height: 100%;
+  }
+  body {
+    height: 100%;
+  }
+  I do not like this idea because it seems like take a lot of process work
+*/
+.app-sign-in-menu {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  display: inline-block;
+}
+.app-sign-in-content {
+  position: absolute;
+  top:50%;
+  left:50%;
+  width: 570px;
+  height: 266px;
+  // I do not like this idea because it seems like take a lot of process work
+  transform: translate(-50%, -50%);
+  background-color: red;
+}
