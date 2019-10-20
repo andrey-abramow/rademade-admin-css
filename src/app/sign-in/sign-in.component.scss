@@ -1,18 +1,23 @@
+// https://www.figma.com/file/yd041ws35w3y3YoNZfTvCL/Doxy.me-(Copy)?node-id=8008%3A4416
 // layout
 .app-sign-in {
-  height: 100%;
-  width: 100%;
-  background-color: yellow;
+  position: relative;
   display: flex;
   flex-direction: column; // It works without it so why do I need it
   justify-content: center; // It works without it so why do I need it
-  position: relative;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: yellow;
+  font-family: Proxima Nova;
 }
 
 
 .app-sign-in__bg-image {
   position: absolute;
   z-index: 0;
+
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -33,26 +38,29 @@
 // menu
 .app-sign-in-menu {
   position: fixed;
-  display: inline-flex;
   right: 10px;
   top: 10px;
+  display: inline-flex;
 }
 
 .app-sign-in-menu__link-icon {
+  position: relative;
   display: block;
-  color: red;
+
   width:12px;
   height: 12px;
   padding-right: 10px;
-  position: relative;
+
+  color: red;
   background: url("./.icons/user-solid.svg") no-repeat
 }
 .app-sign-in-menu__link {
-  color: red;
   display: inline-flex;
-  text-decoration: none;
-  font-size: 16px;
   align-items: center;
+
+  text-decoration: none;
+  color: red;
+  font-size: 16px;
 }
 
 
@@ -62,21 +70,67 @@
   // position: absolute;
   // top:50%;
   // left:50%;
-  margin: auto;
+  z-index: 1;
+  display: flex;
+
   width: 570px;
   height: 266px;
+  margin: auto;
+
   // I do not like this idea because it seems like take a lot of process work
   // transform: translate(-50%, -50%);
   background-color: blue;
-  z-index: 1;
-  display: flex
+
 }
 
 .app-sign-in-logo {
+  display: flex;
+  align-items: center;
+
   width: 190px;
-  background: red
+  height: 100%;
+  border-radius: 4px 0px 0px 4px;
+  background: red;
+}
+.app-sign-in-logo__img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
 }
 .app-sign-in-form {
-  width: 380px;
+  display: flex;
+  flex-direction: column;
+
+  width: 328px;
+  padding: 55px 28px 55px 24px;
+  border-radius: 4px 0px 0px 4px;
   background-color: white;
+}
+.app-sign-in-form__label {
+  margin-bottom: 17px;
+}
+.app-sign-in-form__select {
+  height: 48px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(96, 106, 124, 0.4);
+  background: #F4F6F5;
+}
+.app-sign-in-form__option {
+  border-radius: 4px;
+
+}
+.app-sign-in-form__btn {
+  height: 48px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:active {
+  background-color: darkred;
+}
+button:focus {
+  outline: 0px;
 }
