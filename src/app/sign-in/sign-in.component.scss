@@ -1,3 +1,4 @@
+// layout
 .app-sign-in {
   height: 100%;
   width: 100%;
@@ -7,6 +8,8 @@
   justify-content: center; // It works without it so why do I need it
   position: relative;
 }
+
+
 .app-sign-in__bg-image {
   position: absolute;
   z-index: 0;
@@ -24,6 +27,7 @@
   }
   I do not like this idea because it seems like take a lot of process work
 */
+
 
 
 // menu
@@ -46,10 +50,9 @@
 .app-sign-in-menu__link {
   color: red;
   display: inline-flex;
-  font-size: 12px;
   text-decoration: none;
-  // aligning
-  vertical-align: top;
+  font-size: 16px;
+  align-items: center;
 }
 
 
@@ -64,6 +67,16 @@
   height: 266px;
   // I do not like this idea because it seems like take a lot of process work
   // transform: translate(-50%, -50%);
-  background-color: red;
+  background-color: blue;
   z-index: 1;
+  display: flex
+}
+
+.app-sign-in-logo {
+  width: 190px;
+  background: red
+}
+.app-sign-in-form {
+  width: 380px;
+  background-color: white;
 }
