@@ -47,19 +47,18 @@
   position: relative;
   display: block;
 
-  width:12px;
+  width: 12px;
   height: 12px;
   padding-right: 10px;
-
-  color: red;
-  background: url("./.icons/user-solid.svg") no-repeat
+  background: url("./.icons/user-solid.svg") no-repeat;
+  filter: invert(10%) sepia(71%) saturate(5290%) hue-rotate(7deg) brightness(89%) contrast(120%);
 }
 .app-sign-in-menu__link {
   display: inline-flex;
   align-items: center;
 
   text-decoration: none;
-  color: red;
+  color: darkred;
   font-size: 16px;
 }
 
@@ -90,7 +89,7 @@
   width: 190px;
   height: 100%;
   border-radius: 4px 0px 0px 4px;
-  background: red;
+  background: #BF2A2E;
 }
 .app-sign-in-logo__img {
   max-width: 100%;
@@ -127,7 +126,7 @@
   border: none;
   font-size: 14px;
   color: white;
-  background-color: red;
+  background-color: #BF2A2E;
   text-decoration: none;
   cursor: pointer;
 }
