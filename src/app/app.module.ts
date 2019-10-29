@@ -27,7 +27,6 @@ import { ClickOutsideModule } from 'ng-click-outside';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
     FormsModule,
 
     ClickOutsideModule
