@@ -7,14 +7,12 @@
   height: 100%;
   width: 100%;
 
-  background-color: yellow;
   font-family: Proxima Nova;
 }
 
 
 .app-sign-in__bg-image {
   position: absolute;
-  z-index: 0;
 
   width: 100%;
   height: 100%;
@@ -48,6 +46,7 @@
   width: 12px;
   height: 12px;
   padding-right: 10px;
+
   background: url("./.icons/user-solid.svg") no-repeat;
   filter: invert(10%) sepia(71%) saturate(5290%) hue-rotate(7deg) brightness(89%) contrast(120%);
 }
@@ -117,34 +116,6 @@
   border-radius: 4px;
   font-size: 20px;
   color:#5F6A7D;
-}
-
-// custom select
-
-.app-sign-in-form-select {
-  position: relative;
-  width: 100%;
-}
-.app-sing-in-from-select__option-list {
-  position: absolute;
-  left:0;
-  top: 48px;
-  width: 100%;
-
-  display: inline-block;
-  border: 1px solid
-}
-.app-sign-in-form-select__option {
-  height: 48px;
-}
-.app-sign-in-form-select__option:hover {
-  background-color: #fff;
-
-}
-.app-sign-in-form-select__input {
-  height: 48px;
-  width: calc(100% - 4px);
-  border: 1px solid;
 }
 
 // button

@@ -12,7 +12,6 @@ import { HeaderNotificationsComponent } from './header-notifications/header-noti
 import { CustomerInfoComponent } from './customer-info/customer-info.component';
 import { FormsModule } from '@angular/forms'
 import { ClickOutsideModule } from 'ng-click-outside';
-import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +22,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
     BreadcrumbsComponent,
     HeaderProfileComponent,
     HeaderNotificationsComponent,
-    CustomerInfoComponent,
-    SignInComponent
+    CustomerInfoComponent
   ],
   imports: [
     BrowserModule,
