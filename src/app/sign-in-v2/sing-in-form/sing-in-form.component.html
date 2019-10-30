@@ -1,3 +1,44 @@
-<p>
-  sing-in-form works!
-</p>
+<style>
+  .app-sing-in-form {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .app-sing-in-form__logo {
+    width: 190px;
+
+    background-color: #BF2A2E;;;
+
+  }
+  .app-sing-in-form__form {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 190px - 28px - 24px);
+    padding: 55px 28px 28px 24px;
+    background-color: #FFFFFF;
+  }
+  .app-sing-in-form__label {
+    margin-bottom: 17px;
+  }
+  .app-sing-in-form__select {
+    height: 48px;
+    margin-bottom: 16px;
+  }
+  .app-sing-in-form__button {
+    height: 48px;
+  }
+</style>
+
+<div class="app-sing-in-form">
+  <div class="app-sing-in-form__logo">
+
+  </div>
+  <div class="app-sing-in-form__form">
+    <div class="app-sing-in-form__label">Enter your clinician’s room name</div>
+    <div class="app-sing-in-form__select"></div>
+    <button class="app-sing-in-form__button">Enter room</button>
+  </div>
+
+</div>
