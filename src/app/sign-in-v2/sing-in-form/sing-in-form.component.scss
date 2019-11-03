@@ -1,0 +1,77 @@
+.app-sing-in-form {
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+}
+
+// logo
+.app-sing-in-form__logo {
+  width: 190px;
+  display: flex;
+
+  border-radius: 4px 0 0 4px;
+  background-color: #c52b2e;
+}
+.app-sign-in-form__log-img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.app-sing-in-form__form {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 190px - 28px - 24px);
+  padding: 55px 28px 28px 24px;
+  border-radius: 0 4px 4px 0;
+  background-color: #FFFFFF;
+}
+.app-sing-in-form__label {
+  margin-bottom: 17px;
+}
+
+/* select */
+.app-sing-in-form__select-wrapper {
+  height: 48px;
+  width: 100%;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.app-sing-in-form__select-value {
+  position: absolute;
+
+  height: 48px;
+  width: calc(100% - 16px);
+
+  border: 1px solid rgba(96, 106, 124, 0.4);
+  padding-left: 16px;
+  line-height: 48px;
+  pointer-events: none;
+  background-color: #F4F6F5;
+  border-radius: 4px;
+}
+
+.app-sing-in-form__select {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+/* button */
+.app-sing-in-form__button {
+  height: 48px;
+  background-color: #BF2A2E;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+
+  &:active {
+    background-color: #B22A2E;
+  }
+}

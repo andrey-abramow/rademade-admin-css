@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { SingInFormComponent } from './sing-in-form/sing-in-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [HeaderMenuComponent, FooterComponent, SingInFormComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports:[HeaderMenuComponent, FooterComponent, SingInFormComponent]
 })
