@@ -4,14 +4,11 @@
    display: flex;
    height: 100vh;
    flex-direction: column;
-
-
-   background-color: green;
+   background-size: cover;
  }
 
  .header {
    height: 30px;
-   background-color:red;
 
  }
  .content {
@@ -20,13 +17,18 @@
    width: 570px;
  }
  .footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
    height: 30px;
-   background-color: red;
+   color: darkred;
+   font-size: 12px;
  }
 
 </style>
 
-<div class="wrapper">
+<div class="wrapper" [style.background-image]="'url(' + bgImage + ')'">
 
   <div class="header">
     <app-header-menu></app-header-menu>
@@ -37,8 +39,6 @@
   </div>
 
   <div class="footer">
-
     <app-footer></app-footer>
-
   </div>
 </div>

@@ -17,7 +17,7 @@ export class AutocompleteComponent implements OnInit {
   @Output() onFound = new EventEmitter<Customer[]>();
 
   public isOpen = false;
-  private searchString: string = '';
+  public searchString: string = '';
 
   constructor(private customerService: CustomerService) { }
 
@@ -28,7 +28,7 @@ export class AutocompleteComponent implements OnInit {
     this.close();
   }
 
-  onClickedOutside() {
+  onClickedOutside(event) {
     this.close()
   }
 

@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignInV2Component implements OnInit {
 
+  public bgImage: string;
+
   constructor() { }
 
   ngOnInit() {
+    this.bgImage = 'assets/sign-in-bg.jpg'
   }
 
 }
