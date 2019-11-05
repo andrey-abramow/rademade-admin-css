@@ -51,6 +51,23 @@
   pointer-events: none;
   background-color: #F4F6F5;
   border-radius: 4px;
+
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   right: 30px;
+  //   background: url('/sprite.svg#expand_more');
+  // }
+}
+.app-sing-in-form__select-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  width: 12px;
+  height: 8px;
+
+  pointer-events: none;
 }
 
 .app-sing-in-form__select {

@@ -7,6 +7,9 @@
 
     <div class="app-sing-in-form__select-wrapper">
       <span class="app-sing-in-form__select-value">{{ value }}</span>
+      <svg class="app-sing-in-form__select-icon">
+        <use xlink:href="sprite.svg#expand_more"></use>
+      </svg>
       <select class="app-sing-in-form__select" [(ngModel)]="value">
         <option>Room1</option>
         <option>Room2</option>
