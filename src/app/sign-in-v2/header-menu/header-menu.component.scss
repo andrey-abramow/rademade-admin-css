@@ -5,9 +5,12 @@
   text-decoration: none;
 }
 .header-menu__item-svg {
+  vertical-align: middle;
+
   fill: darkred;
-  max-width: 10px;
-  max-height: 14px;
+  max-width: 16px;
+  max-height: 16px;
+  margin-right: 4px;
 }
 
 .header-menu {
@@ -19,4 +22,7 @@
 
  .header-menu__item {
    margin-right: 10px;
+ }
+ .header-menu__item-text {
+  vertical-align: middle;
  }
