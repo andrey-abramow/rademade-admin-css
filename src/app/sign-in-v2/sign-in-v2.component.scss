@@ -89,7 +89,7 @@
   max-height: 100%;
   margin: auto;
 }
-.app-sign-in-form {
+.app-sing-in {
   display: flex;
   flex-direction: column;
 
@@ -98,28 +98,28 @@
   border-radius: 0px 4px 4px 0px;
   background-color: white;
 }
-.app-sign-in-form__label {
+.app-sing-in__label {
   margin-bottom: 17px;
   color: #0F1821;
 }
 
 // select
 
-.app-sign-in-form__select {
+.app-sing-in__select {
   height: 48px;
   margin-bottom: 16px;
   border: 1px solid rgba(96, 106, 124, 0.4);
   background: #F4F6F5;
   color:#5F6A7D;
 }
-.app-sign-in-form__option {
+.app-sing-in__option {
   border-radius: 4px;
   font-size: 20px;
   color:#5F6A7D;
 }
 
 // button
-.app-sign-in-form__btn {
+.app-sing-in__btn {
   height: 48px;
   border: none;
   font-size: 14px;

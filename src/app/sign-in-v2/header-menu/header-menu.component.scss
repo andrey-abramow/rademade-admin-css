@@ -1,4 +1,4 @@
-.header-menu__item-link {
+.header-menu__link {
   position: relative;
 
   padding-left: 26px;
@@ -7,7 +7,7 @@
   font-weight: 700;
   text-decoration: none;
 }
-.header-menu__item-svg {
+.header-menu__svg {
   position: absolute;
   left: 0;
 
@@ -26,6 +26,6 @@
  .header-menu__item {
    margin-right: 10px;
  }
- .header-menu__item-text {
+ .header-menu__text {
   vertical-align: middle;
  }

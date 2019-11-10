@@ -1,0 +1,26 @@
+<div class="sing-in">
+  <div class="sing-in__logo">
+     <img class="sing-in__img" src="assets/customer.png"/>
+  </div>
+  <div class="sing-in__form">
+    <div class="sing-in__label">Enter your clinician’s room name:</div>
+
+    <div class="sing-in__select form-select">
+      <span class="form-select__value">
+        {{ value }}
+        <svg class="form-select__icon">
+          <use xlink:href="sprite.svg#expand_more"></use>
+        </svg>
+      </span>
+
+      <select class="form-select__select" [(ngModel)]="value">
+        <option>Room1</option>
+        <option>Room2</option>
+        <option>Room3</option>
+      </select>
+    </div>
+
+    <button class="sing-in__button">Enter room</button>
+  </div>
+
+</div>

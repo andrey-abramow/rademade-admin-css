@@ -1,4 +1,4 @@
-.app-sing-in-form {
+.sing-in {
   display: flex;
 
   width: 100%;
@@ -6,20 +6,20 @@
 }
 
 // logo
-.app-sing-in-form__logo {
+.sing-in__logo {
   width: 190px;
   display: flex;
 
   border-radius: 4px 0 0 4px;
   background-color: #c52b2e;
 }
-.app-sign-in-form__log-img {
+.sing-in__img {
   max-height: 100%;
   max-width: 100%;
   margin: auto;
 }
 
-.app-sing-in-form__form {
+.sing-in__form {
   display: flex;
   flex-direction: column;
   width: calc(100% - 190px);
@@ -28,21 +28,19 @@
   border-radius: 0 4px 4px 0;
   background-color: #FFFFFF;
 }
-.app-sing-in-form__label {
+.sing-in__label {
   margin-bottom: 17px;
 }
 
 /* select */
-.app-sing-in-form__select-wrapper {
-  // display: flex;
-  // flex-direction: column;
+.sing-in__select {
   height: 48px;
   width: 100%;
   margin-bottom: 16px;
   position: relative;
 }
 
-.app-sing-in-form__select-value {
+.form-select__value {
   position: relative;
   display: block;
   box-sizing: border-box;
@@ -55,7 +53,7 @@
   background-color: #F4F6F5;
   border-radius: 4px;
 }
-.app-sing-in-form__select-icon {
+.form-select__icon {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -66,7 +64,7 @@
   pointer-events: none;
 }
 
-.app-sing-in-form__select {
+.form-select__select {
   position: absolute;
   padding-left: 16px;
   opacity: 0;
@@ -79,7 +77,7 @@
 }
 
 /* button */
-.app-sing-in-form__button {
+.sing-in__button {
   height: 48px;
   background-color: #BF2A2E;
   color: #FFFFFF;
