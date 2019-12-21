@@ -1,0 +1,164 @@
+// https://www.figma.com/file/yd041ws35w3y3YoNZfTvCL/Doxy.me-(Copy)?node-id=8008%3A4416
+// layout
+.app-sign-in {
+  position: relative;
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+
+  font-family: Proxima Nova;
+}
+
+
+.app-sign-in__bg-image {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*
+ To make it work I added;
+ html {
+  height: 100%;
+  }
+  body {
+    height: 100%;
+  }
+  I do not like this idea because it seems like take a lot of process work
+*/
+
+
+
+// menu
+.app-sign-in-menu {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  display: inline-flex;
+}
+
+.app-sign-in-menu__link-icon {
+  position: relative;
+  display: block;
+
+  width: 12px;
+  height: 12px;
+  padding-right: 10px;
+
+  background: url("./.icons/user-solid.svg") no-repeat;
+  filter: invert(10%) sepia(71%) saturate(5290%) hue-rotate(7deg) brightness(89%) contrast(120%);
+}
+.app-sign-in-menu__link {
+  display: inline-flex;
+  align-items: center;
+
+  text-decoration: none;
+  color: darkred;
+  font-size: 16px;
+}
+
+
+// content
+.app-sign-in-content {
+  // position: absolute;
+  // top:50%;
+  // left:50%;
+  z-index: 1;
+  display: flex;
+
+  width: 570px;
+  height: 266px;
+  margin: auto;
+
+  // I do not like this idea because it seems like take a lot of process work
+  // transform: translate(-50%, -50%);
+}
+
+.app-sign-in-logo {
+  display: flex;
+  align-items: center;
+  width: 190px;
+  height: 100%;
+  border-radius: 4px 0px 0px 4px;
+  background: #BF2A2E;
+}
+.app-sign-in-logo__img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+.app-sing-in {
+  display: flex;
+  flex-direction: column;
+
+  width: 328px;
+  padding: 55px 28px 55px 24px;
+  border-radius: 0px 4px 4px 0px;
+  background-color: white;
+}
+.app-sing-in__label {
+  margin-bottom: 17px;
+  color: #0F1821;
+}
+
+// select
+
+.app-sing-in__select {
+  height: 48px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(96, 106, 124, 0.4);
+  background: #F4F6F5;
+  color:#5F6A7D;
+}
+.app-sing-in__option {
+  border-radius: 4px;
+  font-size: 20px;
+  color:#5F6A7D;
+}
+
+// custom select
+
+.app-sing-in-select {
+  position: relative;
+  width: 100%;
+}
+.app-sing-in-from-select__option-list {
+  position: absolute;
+  left:0;
+  top: 48px;
+  width: 100%;
+
+  display: inline-block;
+  border: 1px solid
+}
+.app-sing-in-select__option {
+  height: 48px;
+}
+.app-sing-in-select__option:hover {
+  background-color: #fff;
+
+}
+.app-sing-in-select__input {
+  height: 48px;
+  width: calc(100% - 4px);
+  border: 1px solid;
+}
+
+// button
+.app-sing-in__btn {
+  height: 48px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  background-color: #BF2A2E;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:active {
+  background-color: darkred;
+}
+button:focus {
+  outline: 0px;
+}

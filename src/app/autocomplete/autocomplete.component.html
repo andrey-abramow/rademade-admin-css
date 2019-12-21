@@ -2,7 +2,7 @@
   <input [(ngModel)]="searchString" (ngModelChange)="onChange(searchString)" placeholder="search"/>
   <ul *ngIf="isOpen" class="autocomplete_items-container">
     <li *ngFor="let item of items" (click)="select(item)">
-      <span>{{item.name}}</span>
+      <!-- <span>{{item.name}}</span> -->
     </li>
   </ul>
 </div>

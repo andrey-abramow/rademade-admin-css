@@ -1,0 +1,31 @@
+.header-menu__link {
+  position: relative;
+
+  padding-left: 26px;
+  color: darkred;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header-menu__svg {
+  position: absolute;
+  left: 0;
+
+  fill: darkred;
+  max-width: 16px;
+  max-height: 16px;
+}
+
+.header-menu {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  padding: 10px 5px;
+  justify-content: flex-end;
+ }
+
+ .header-menu__item {
+   margin-right: 10px;
+ }
+ .header-menu__text {
+  vertical-align: middle;
+ }

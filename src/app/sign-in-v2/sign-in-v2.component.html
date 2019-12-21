@@ -1,0 +1,44 @@
+<style>
+ .wrapper {
+  font-family: Proxima Nova;
+   display: flex;
+   height: 100vh;
+   flex-direction: column;
+   background-size: cover;
+ }
+
+ .header {
+   height: 30px;
+
+ }
+ .content {
+   margin: auto;
+   height: 266px;
+   width: 570px;
+ }
+ .footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   height: 30px;
+   color: darkred;
+   font-size: 12px;
+ }
+
+</style>
+
+<div class="wrapper" [style.background-image]="'url(' + bgImage + ')'">
+
+  <div class="header">
+    <app-header-menu></app-header-menu>
+  </div>
+
+  <div class="content">
+    <app-sing-in></app-sing-in>
+  </div>
+
+  <div class="footer">
+    <app-footer></app-footer>
+  </div>
+</div>
